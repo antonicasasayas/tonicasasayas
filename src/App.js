@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import YoutubeEmbed from "./embed";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 className="logo">Toni Casasayas</h2>
+      <div className="container">
+        <div className="header">
+          <h1 className="title">We help fashion businesses get more clients</h1>
+          <p>Grow your online business and increase your sales</p>
+          <button>Learn more</button>
+        </div>
+
+        <YoutubeEmbed embedId="rzlSsng7ZdE" />
+      </div>
+      <div className="slogan">
+        <h2>
+          Sleek design. <span className="italics">Better performance.</span>
+          Easier usability.
+          <span className="bold">More sells.</span>
+        </h2>
+        <button className="second">Learn more</button>
+      </div>
+      <div className="section-2">
+        <h3>Here's what you'll get...</h3>
+      </div>
     </div>
   );
 }

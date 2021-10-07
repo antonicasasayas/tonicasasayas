@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+html,body{
+    height:max-content;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    height:max-content;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+    background-color: #262626;
+    height: 90vh;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title{
+padding-top: 2%;
+font-size: 3rem;
+margin-top: 0;
 }
 
-.App-link {
-  color: #61dafb;
+hr{
+   width: 30%;
+   height: 2px;
+   background-color: white;
+   margin: 2% auto
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+    
+    color: white;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+button{
+    font-family: 'Raleway-Medium';
+    padding: 6px 10px;
+    border: none;
+    border-radius: 10px;
+    width: 10rem;
+    background-color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.bold{
+    font-family: 'Raleway-Bold';
+}
+
+
+h2{
+    text-align: center;
+}
+
+span{
+margin-right: 10px;
+margin-left: 10px;
+}
+
+
+.slogan{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second{
+border: 2px solid black;
+margin-top: 1rem;
+}
+
+.section-2{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    font-size: 2rem;
+    font-family: 'Raleway-Bold';
 }
