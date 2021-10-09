@@ -35,18 +35,18 @@ function App() {
           <p className="lg:text-lg lg:mt-4">
             Grow your online business and increase your sales
           </p>
+          <button className="text-base mb-4 ">Learn more</button>
           <YoutubeEmbed embedId="rzlSsng7ZdE" />
-          <button className="text-base mt-8">Learn more</button>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row items-center justify-center">
+      <div className="flex flex-col lg:flex-row lg:text-2xl items-center justify-center">
         <span>Sleek design. </span>
         <span className="bold">Easier usability.</span>
         <span className="italics">Better performance.</span>
         <span className="bold">More sells.</span>
         <button className="second lg:hidden text-base">Learn more</button>
       </div>
-      <div className="hidden lg:flex justify-center">
+      <div className="hidden lg:flex mt-4 justify-center">
         <button className="second  text-base">Learn more</button>
       </div>
 
@@ -92,10 +92,14 @@ function App() {
 
       <div className="flex flex-col  text-center mt-20">
         <span className="bold lg:text-4xl text-2xl">Guaranteed Results</span>
-        <span className="lg:text-base">If you don't get amazing results we give your money back.</span>
+        <span className="lg:text-base">
+          If you don't get amazing results we give your money back.
+        </span>
       </div>
       <div className="flex flex-col h-96 lg:h-screen items-center mt-20">
-        <span className="text-2xl lg:text-4xl bold">Let's get started today!</span>
+        <span className="text-2xl lg:text-4xl bold">
+          Let's get started today!
+        </span>
         <span>Choose a suitable time and let's talk!</span>
 
         <div
