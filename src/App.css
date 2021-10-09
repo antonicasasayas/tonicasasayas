@@ -18,11 +18,7 @@ html,body{
     margin-bottom: 20px;
 }
 
-.header{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+
 .title{
 padding-top: 2%;
 font-size: 3rem;
@@ -45,10 +41,10 @@ p{
 
 button{
     font-family: 'Raleway-Medium';
-    padding: 6px 10px;
+    padding: 6px 8px;
     border: none;
     border-radius: 10px;
-    width: 10rem;
+    width: 8rem;
     background-color: white;
     font-size: 1.5rem;
     cursor: pointer;
@@ -90,10 +86,15 @@ margin-top: 1rem;
     margin-top: 6rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
 }
 
 h3{
     font-size: 2rem;
     font-family: 'Raleway-Bold';
 }
+
+.section-2 p{
+    color: black;
+}
+

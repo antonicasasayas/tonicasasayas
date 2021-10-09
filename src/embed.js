@@ -1,5 +1,5 @@
 const YoutubeEmbed = ({ embedId }) => (
-  <div className="video-responsive">
+  <div className="video-responsive ">
     <iframe
       width="570"
       height="320"
@@ -8,6 +8,7 @@ const YoutubeEmbed = ({ embedId }) => (
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
       title="Embedded youtube"
+      className="w-full"
     />
   </div>
 );
